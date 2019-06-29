@@ -7,14 +7,16 @@ long_desc = '''
 This package contains tools for easy sphinx domain creation.
 '''
 
-sys.path.insert(0, 'sphinxcontrib')
-import domaintools
+# Package versioning solution originally found here:
+# http://stackoverflow.com/q/458550
+version_path = os.path.join('sphinxcontrib', 'domaintools', '_version.py')
+exec(open(version_path).read())
 
 requires = ['Sphinx>=1.0']
 
 setup(
     name='sphinxcontrib-domaintools',
-    version=domaintools.__version__,
+    version=__version__,
     url='http://bitbucket.org/klorenz/sphinxcontrib-domaintools',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-domaintools',
     license='BSD',
