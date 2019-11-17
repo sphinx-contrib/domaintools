@@ -32,7 +32,7 @@ from sphinx.directives import ObjectDescription
 from sphinx.util import ws_re
 from sphinx.util.nodes import clean_astext, make_refnode
 
-__version__ = '0.1'
+from ._version import __version__
 
 
 class GenericObject(ObjectDescription):
