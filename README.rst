@@ -1,10 +1,10 @@
 Domain Tools
 ============
 
-This `Sphinx extension`_ provides a tool for easy `sphinx domain`_ creation.
+This `Sphinx extension`_ provides a tool for easy Sphinx `domain`_ creation.
 
-.. _Sphinx extension: http://sphinx-doc.org
-.. _sphinx domain: http://sphinx-doc.org/domains.html
+.. _Sphinx extension: https://sphinx-doc.org
+.. _domain: https://www.sphinx-doc.org/en/master/usage/restructuredtext/domains.html
 
 
 Installation
@@ -44,8 +44,8 @@ Complete example you find in `sphinxcontrib.makedomain`_ package.
 
 A more complex example you can find in `sphinxcontrib-cmakedomain`_ package.
 
-.. _sphinxcontrib-cmakedomain: http://bitbucket.org/klorenz/sphinxcontrib-cmakedomain
-.. _sphinxcontrib-makedomain: http://bitbucket.org/klorenz/sphinxcontrib-makedomain
+.. _sphinxcontrib-cmakedomain: https://github.com/sphinx-contrib/cmakedomain
+.. _sphinxcontrib-makedomain: https://github.com/sphinx-contrib/makedomain
 
 
 Reference
