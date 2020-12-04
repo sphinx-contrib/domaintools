@@ -12,7 +12,7 @@ This package contains tools for easy sphinx domain creation.
 version_path = os.path.join('sphinxcontrib', 'domaintools', '_version.py')
 exec(open(version_path).read())
 
-requires = ['Sphinx>=1.0']
+requires = ['Sphinx>=1.4']
 
 setup(
     name='sphinxcontrib-domaintools',
